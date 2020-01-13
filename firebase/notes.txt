@@ -1,0 +1,23 @@
+Fire Base (platform for building web apps)
+
+Beginner's guide :
+
+* For installing firebase globally :
+> npm install firebase-tools -g
+
+* Initiating a project on firebase :
+> firebase init hosting
+
+this will create a bunch of files, the 
+firebase.json : contains the hosting details
+.firebaserc : holds the filename of project (project name)
+index.html : is the actual application
+
+To initialize a nodeJS app
+> friebase init funcitons
+
+Runs the app locally (at port 5000)
+> firebase serve 
+
+To deploy the application
+> firebase deploy
